@@ -1,0 +1,19 @@
+1) Создать проект top
+2) создать приложение store
+3) настройка проекта + приложение
+4) Создать модель Product:
+- title (CharField)
+- description (TextField)
+- price (IntegerField)
+- is_new (BooleanField)
+- is_discounted (BooleanField)
+
+Category:
+- name (CharField)
+
+Brand:
+- name (CharField)
+
+4) Добавить SlugField в модель Product
+5) Добавить связь ForeignKey к Category и Brand в модели Product
+6) * Попытаться найти инфу как сделать поле SlugField авто заполняющимся
